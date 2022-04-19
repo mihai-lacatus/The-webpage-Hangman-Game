@@ -1,0 +1,149 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+}
+
+#animation {
+  float: left;
+  width: 35%;
+  height: 100vh;
+  background-color: cyan;
+  border-width: 0px;
+}
+
+#keyboard {
+  float: right;
+  width: 65%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(cyan), to(yellow));
+  background-image: linear-gradient(to right, cyan, yellow);
+}
+
+#word {
+  position: absolute;
+  bottom: 0px;
+  height: 20vh;
+  width: 64.5%;
+  margin-left: 2px;
+  border: 0px;
+}
+
+#result {
+  position: absolute;
+  bottom: 0px;
+  height: 20vh;
+  width: 35%;
+  border-width: 0px;
+}
+
+#title {
+  position: absolute;
+  top: 0px;
+  height: 10vh;
+  width: 35%;
+  font-family: Garamond, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-width: 0px;
+  color: orange;
+}
+
+#title p {
+  float: left;
+  margin-left: 30px;
+}
+
+#cadru {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+
+#head {
+  position: absolute;
+  left: 285px;
+  top: 150px;
+  display: none;
+}
+
+#body {
+  position: absolute;
+  left: 333px;
+  top: 250px;
+  display: none;
+}
+
+#arm1 {
+  position: absolute;
+  left: 278px;
+  top: 250px;
+  display: none;
+}
+
+#arm2 {
+  position: absolute;
+  left: 346px;
+  top: 250px;
+  display: none;
+}
+
+#leg1 {
+  position: absolute;
+  left: 290px;
+  top: 384px;
+  display: none;
+}
+
+#leg2 {
+  position: absolute;
+  left: 345px;
+  top: 392px;
+  display: none;
+}
+
+#tiles {
+  margin-top: 20vh;
+  background-color: brown;
+  height: 39vh;
+  padding-top: 11vh;
+  border-radius: 45%;
+}
+
+.tile {
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+#A {
+  margin-left: 70px;
+}
+
+#K {
+  margin-left: 137px;
+}
+
+#Ț {
+  margin-left: 273px;
+}
+
+#mistakes {
+  position: absolute;
+  top: 0px;
+  width: 65%;
+  height: 12vh;
+  font-family: Garamond, serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  color: darkred;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style_main.css.map */
